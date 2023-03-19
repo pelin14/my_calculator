@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonnn"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="@color/grey"
+        android:textColor="#767272"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="." />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="@color/grey"
+        android:text="0"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonvirgul"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonnn" />
+
+    <Button
+        android:id="@+id/buttonvirgul"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#787272"
+        android:text=","
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonesit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button0" />
+
+    <Button
+        android:id="@+id/buttonesit"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="="
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonvirgul" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="@color/grey"
+        android:text="1"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/buttonnn"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="2"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button0"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="3"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/buttonvirgul"
+        app:layout_constraintEnd_toStartOf="@+id/buttoneksi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/buttoneksi"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="-"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/buttonesit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:text="4"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="6"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/buttonarti"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="@color/grey"
+        android:text="5"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/buttonarti"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="+"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/buttoneksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="7"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="8"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#767272"
+        android:text="9"
+        android:textColor="#070609"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/buttoncarpi"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/buttoncarpi"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="x"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/buttonarti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="AC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/buttonsil"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsil"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:textSize="24sp"
+        app:backgroundTint="@color/darkPink"
+        app:icon="@drawable/baseline_backspace_24"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/buttonyuzde"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonC" />
+
+    <Button
+        android:id="@+id/buttonyuzde"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="%"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toStartOf="@+id/buttonbol"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonsil" />
+
+    <Button
+        android:id="@+id/buttonbol"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/dairesel_button"
+        android:backgroundTint="#590D27"
+        android:text="/"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/darkPink"
+        app:layout_constraintBottom_toTopOf="@+id/buttoncarpi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonyuzde" />
+
+    <TextView
+        android:id="@+id/textViewIslem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSonuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIslem"
+        app:layout_constraintVertical_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
